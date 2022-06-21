@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../../../../build/assets/css/styles.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,100;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="page">
+	<header class="page__header">
+		<img class="page__header-logo" src="../../../components/icon/Logo.svg" alt="Logo">
+		<ul class="page__header-menu">
+			<a href="#" class="page__header-menu-item">Women's</a>
+			<a href="#" class="page__header-menu-item">Men's</a>
+			<a href="#" class="page__header-menu-item">Home</a>
+			<a href="#" class="page__header-menu-item">Travel</a>
+			<a href="#" class="page__header-menu-item">Beauty</a>
+			<a href="#" class="page__header-menu-item">Sale</a>
+		</ul>
+		<div class="page__header-order">
+			<div class="page__header-order-item"><img src="../../../components/icon/Find.svg" alt="find" ></div>
+			<div class="page__header-order-item page__header-order-item_filled"><img src="../../../components/icon/Basket.svg" alt="basket" ></div>
+			<div class="page__header-order-item-burger"><img src="../../../components/icon/Burger.svg" alt="find" ></div>
+		</div>
+	</header>
+	<div class="page__container">
+		<div class="page__content">
+			<div class="page__content-stepper">
+				<div class="page__content-stepper-item">
+					<div class="page__content-stepper-item-point">1</div>
+					<p class="page__content-stepper-item-name">Account</p>
+				</div>
+				<div class="page__content-stepper-item">
+					<div class="page__content-stepper-item-point">2</div>
+					<p class="page__content-stepper-item-name">Shipping</p>
+				</div>
+				<div class="page__content-stepper-item active">
+					<div class="page__content-stepper-item-point page__content-stepper-item-point_active">3</div>
+					<p class="page__content-stepper-item-name">Billing</p>
+				</div>
+				<div class="page__content-stepper-item page__content-stepper-item_untouched">
+					<div class="page__content-stepper-item-point">4</div>
+					<p class="page__content-stepper-item-name">Review</p>
+				</div>
+			</div>
+			<div class="page__content-form-block">
+				<div class="page__content-form-block-title">Billing Information</div>
+				<div class="page__content-form-block-btns">
+					<div class="page__content-form-radio-btns-item">
+						<input type="checkbox" id="creditCard" class="page__content-form-radio-btns-item-input">
+						<label for="creditCard">Pay with Credit Card</label>
+					</div>
+					<div class="page__content-form-radio-btns-item">
+						<input type="checkbox" class='page__content-form-radio-btns-item-input' id="PayPal">
+						<label for="PayPal">
+							<img src="../../../components/icon/PayPal.svg" alt="Paypal">
+						</label>
+					</div>
+				</div>
+				<form action="submit" class="page__content-form">
+					<div class="page__content-form-item">
+						<label for="cardholder">Name on card</label>
+						<input type="text" id="cardholder" placeholder="Placeholder text">
+					</div>
+					<div class="page__content-form-item">
+						<label for="cardNumber">Card number</label>
+						<div class="page__content-form-item-inputs-group">
+							<input type="text" id="cardNumber">
+							<input type="text">
+							<input type="text">
+							<input type="text">
+						</div>
+					</div>
+					<div class="page__content-form-item">
+						<div class="page__content-form-item-inputs-group">
+							<div>
+								<label for="expireDate">Expire date</label>
+								<input type="text" id="expireDate">
+							</div>
+							<div>
+								<label for="CVV" class="page__content-form-item-label-hint">CVV code</label>
+								<input type="text" id="CVV">
+							</div>
+						</div>
+					</div>
+				</form>
+				<div class="page__content-form-confirmation">
+					<div class="page__content-form-radio-btns-item">
+						<input type="checkbox" class='page__content-form-radio-btns-item-input page__content-form-radio-btns-item-input_squared' id="saveInfo">
+						<label for="saveInfo">Save information of this credit card</label>
+					</div>
+					<div class="page__content-form-radio-btns-item">
+						<input type="checkbox" class='page__content-form-radio-btns-item-input page__content-form-radio-btns-item-input_squared' id="acceptPolicy">
+						<label for="acceptPolicy">I accept the terms and comditions and the Privacy Policies</label>
+					</div>
+				</div>
+			</div>
+			<div class="page__content-btns">
+				<button class="page__content-btns-item">Back</button>
+				<button class="page__content-btns-item page__content-btns-item-styled">Check Out</button>
+			</div>
+		</div>
+		<div class="page__basket">
+			<div class="page__basket-list-item">
+				<div class="page__basket-title">
+					My basket
+				</div>
+				<div class="page__basket-list-items">
+					<div class="page__basket-list-items-item">
+						<div class="page__basket-list-items-item-body">
+							<div class="page__basket-list-items-item-img">
+								<img src="../../../components/icon/Jacket.svg" alt="Jacket">
+							</div>
+							<div class="page__basket-list-items-item-info">
+								<div class="page__basket-list-items-item-info-text">
+									Amet minim mollit non deserunt ullamco est sit
+								</div>
+								<div class="page__basket-list-items-item-info-count">
+									<img src="../../../components/icon/Delete.svg" alt="remove" class="page__basket-list-items-item-info-count-btn">
+									<span>1</span>
+									<img src="../../../components/icon/Add.svg" alt="add" class="page__basket-list-items-item-info-count-btn">
+									<div class="page__basket-list-items-item-info-count-total">$ 525</div>
+								</div>
+							</div>
+						</div>
+						<div class="page__basket-list-items-delete">
+							<img src="../../../components/icon/Remove.svg" alt="delete">
+						</div>
+					</div>
+					<div class="page__basket-list-items-item">
+						<div class="page__basket-list-items-item-body">
+							<div class="page__basket-list-items-item-img">
+								<img src="../../../components/icon/Boot.svg" alt="Jacket">
+							</div>
+							<div class="page__basket-list-items-item-info">
+								<div class="page__basket-list-items-item-info-text">
+									Amet minim mollit non
+								</div>
+								<div class="page__basket-list-items-item-info-count">
+									<img src="../../../components/icon/Delete.svg" alt="remove" class="page__basket-list-items-item-info-count-btn">
+									<span>1</span>
+									<img src="../../../components/icon/Add.svg" alt="add" class="page__basket-list-items-item-info-count-btn">
+									<div class="page__basket-list-items-item-info-count-total">$ 525</div>
+								</div>
+							</div>
+						</div>
+						<div class="page__basket-list-items-delete">
+							<img src="../../../components/icon/Remove.svg" alt="delete">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__basket-list-item">
+				<div class="page__basket-promocode">
+					<div class="page__basket-title">Promocode</div>
+					<div class="page__basket-promocode-input">
+						<input type="text" placeholder="Placeholder text">
+						<button class="page__content-btns-item page__content-btns-item-styled">Apply</button>
+					</div>
+				</div>
+			</div>
+			<div class="page__basket-list-item">
+				<div class="page__basket-total">
+					<div class="page__basket-total-item">
+						<span>Subtotal</span>
+						<span>$1 050</span>
+					</div>
+					<div class="page__basket-total-item">
+						<span>Tax</span>
+						<span>$100</span>
+					</div>
+					<div class="page__basket-total-item">
+						<span>Shipping</span>
+						<span>$150</span>
+					</div>
+					<div class="page__basket-total-item page__basket-total-item-total">
+						<span>Total</span>
+						<span>$1 300</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
