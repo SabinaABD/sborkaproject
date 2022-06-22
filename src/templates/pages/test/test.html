@@ -22,7 +22,10 @@
 		</ul>
 		<div class="page__header-order">
 			<div class="page__header-order-item"><img src="../../../components/icon/Find.svg" alt="find" ></div>
-			<div class="page__header-order-item page__header-order-item_filled"><img src="../../../components/icon/Basket.svg" alt="basket" ></div>
+			<div class="page__header-order-item page__header-order-item_filled">
+				<img src="../../../components/icon/Basket.svg" alt="basket" >
+				<span id="header_basket">2</span>
+			</div>
 			<div class="page__header-order-item-burger"><img src="../../../components/icon/Burger.svg" alt="find" ></div>
 		</div>
 	</header>
@@ -108,50 +111,7 @@
 				<div class="page__basket-title">
 					My basket
 				</div>
-				<div class="page__basket-list-items">
-					<div class="page__basket-list-items-item">
-						<div class="page__basket-list-items-item-body">
-							<div class="page__basket-list-items-item-img">
-								<img src="../../../components/icon/Jacket.svg" alt="Jacket">
-							</div>
-							<div class="page__basket-list-items-item-info">
-								<div class="page__basket-list-items-item-info-text">
-									Amet minim mollit non deserunt ullamco est sit
-								</div>
-								<div class="page__basket-list-items-item-info-count">
-									<img src="../../../components/icon/Delete.svg" alt="remove" class="page__basket-list-items-item-info-count-btn">
-									<span>1</span>
-									<img src="../../../components/icon/Add.svg" alt="add" class="page__basket-list-items-item-info-count-btn">
-									<div class="page__basket-list-items-item-info-count-total">$ 525</div>
-								</div>
-							</div>
-						</div>
-						<div class="page__basket-list-items-delete">
-							<img src="../../../components/icon/Remove.svg" alt="delete">
-						</div>
-					</div>
-					<div class="page__basket-list-items-item">
-						<div class="page__basket-list-items-item-body">
-							<div class="page__basket-list-items-item-img">
-								<img src="../../../components/icon/Boot.svg" alt="Jacket">
-							</div>
-							<div class="page__basket-list-items-item-info">
-								<div class="page__basket-list-items-item-info-text">
-									Amet minim mollit non
-								</div>
-								<div class="page__basket-list-items-item-info-count">
-									<img src="../../../components/icon/Delete.svg" alt="remove" class="page__basket-list-items-item-info-count-btn">
-									<span>1</span>
-									<img src="../../../components/icon/Add.svg" alt="add" class="page__basket-list-items-item-info-count-btn">
-									<div class="page__basket-list-items-item-info-count-total">$ 525</div>
-								</div>
-							</div>
-						</div>
-						<div class="page__basket-list-items-delete">
-							<img src="../../../components/icon/Remove.svg" alt="delete">
-						</div>
-					</div>
-				</div>
+				<div class="page__basket-list-items" id="basket"></div>
 			</div>
 			<div class="page__basket-list-item">
 				<div class="page__basket-promocode">
@@ -166,25 +126,27 @@
 				<div class="page__basket-total">
 					<div class="page__basket-total-item">
 						<span>Subtotal</span>
-						<span>$1 050</span>
+						<span id="subtotal">$1 050</span>
 					</div>
 					<div class="page__basket-total-item">
 						<span>Tax</span>
-						<span>$100</span>
+						<span id="tax">$100</span>
 					</div>
 					<div class="page__basket-total-item">
 						<span>Shipping</span>
-						<span>$150</span>
+						<span id="shipping">$150</span>
 					</div>
 					<div class="page__basket-total-item page__basket-total-item-total">
 						<span>Total</span>
-						<span>$1 300</span>
+						<span id="total">$ 1 500</span>
 					</div>
+				</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+<script src="test.js"></script>
 </body>
 </html>
 

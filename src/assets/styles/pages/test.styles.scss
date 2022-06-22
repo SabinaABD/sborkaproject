@@ -43,8 +43,7 @@ body {
 			&-item {
 				&_filled {
 					position: relative;
-					&:after {
-						content: '2';
+					span {
 						position: absolute;
 						background-color: #3366ff;
 						border-radius: 50%;
